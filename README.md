@@ -8,7 +8,8 @@ Sumon the power of Chronos to keep your files encrypted for as long as you like.
 > The algorithm used in this project is not a modern cipher. It uses a variant of the Vignere paper and pencil hand cipher. Do not use it in any situations where you hope to have your data time-locked for more than a couple of days.
 >
 > The algorithm in this software is http://wiki.qt.io/Simple_encryption [!]
-
+>
+> https://github.com/nickodell/HourglassBreaker can exploit the weak cipher used in this project
 ### What
 ---
 Hourglass is a program that encrypts files for a predetermined amount of time. When someone wishes to view the contents of the file, they must wait the aformentioned predetermined amount of time before it can be decrypted.
